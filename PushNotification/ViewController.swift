@@ -12,7 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        Notification.Name.accept.onPost { notification in
+            print(notification.userInfo)
+        }
+        
+        Notification.Name.reject.onPost { (notification) in
+            print(notification.userInfo)
+        }
     }
 
 

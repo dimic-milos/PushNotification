@@ -1,0 +1,21 @@
+{
+    "aps": {
+        "alert": {
+            "title" : "Introduction To Notification",
+            "subtitle" : "Session 707",
+            "body" : "New Notification Look Amazing"
+        },
+        "category": "Category ID",
+        "sound": "default",
+        "mutable-content": 1
+    }
+}
+
+
+{
+    "aps": {
+        "content-available": 1
+    },
+    "image": "https://bit.ly/2Iodl06",
+    "text": "A nice picture of the Earth"
+}
